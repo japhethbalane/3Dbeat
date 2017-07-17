@@ -8,8 +8,8 @@ var zs = [];
 var prevs = [];
 
 var str = '';
-for (var i = -10; i <= 10; i += 1.1) {
-	for (var j = -10; j <= 10; j += 1.1) {
+for (var i = -40; i <= 40; i += 5) {
+	for (var j = -40; j <= 40; j += 5) {
 		str += '<a-box position="'+ i +' '+ 0 +' '+ (j-25) +'" color="' + getRandomColor() + '" height="'+ 0 +'"></a-event></a-box>';
         xs.push(i);
         ys.push(-4);
